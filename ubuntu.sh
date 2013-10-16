@@ -23,14 +23,14 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confd
 sudo apt-get install -y r-base
 
 # install browsers for IPython notebooks and web development
-sudo apt-get install -y firefox
-sudo apt-get install -y chromium-browser
+#sudo apt-get install -y firefox
+#sudo apt-get install -y chromium-browser
 
 # install pip for python packages
 sudo apt-get install -y python-pip
 
 # install git
-sudo apt-get install -y git gitk git-man
+#sudo apt-get install -y git gitk git-man
 
 # install a calculator!
 sudo apt-get install -y bc
