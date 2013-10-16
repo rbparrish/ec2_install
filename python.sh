@@ -3,6 +3,7 @@
 # meta updates
 #pip install --upgrade pip
 
+'''
 # setup virtualenv and the wrapper
 echo "Installing virtualenv"
 pip install virtualenv
@@ -16,6 +17,7 @@ echo ". /usr/local/bin/virtualenvwrapper.sh" >> ~/.profile
 
 # create a virtual environment for the zipfian distribution
 mkvirtualenv zipfian-dist
+'''
 
 # install IPython and IPython notebook and dependencies
 echo "Installing IPython"
